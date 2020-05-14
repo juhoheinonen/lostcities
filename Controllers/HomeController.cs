@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using lostcities.Models;
+using LostCities.Models;
 
-namespace lostcities.Controllers
+namespace LostCities.Controllers
 {
     public class HomeController : Controller
     {
