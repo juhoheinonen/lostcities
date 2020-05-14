@@ -24,7 +24,7 @@ namespace LostCities.GameData
         {
             var gameSituationContainer = new GameSituationContainer();
 
-            var basicDeck = CardManager.GenerateAndShuffleDeck();
+            gameSituationContainer.BasicDeck = CardManager.GenerateAndShuffleDeck();
 
             gameSituationContainer.GameId = Guid.NewGuid();
 

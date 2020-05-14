@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OMEVkrP5ZITZX/RyqDzoj0GXlPa9DAC/Psyt5xHPFufcXZdPVgQHTS73N8X7FSsVeolMyxIJZSbrA2L7/FhLCw==",
+  "dgSpecHash": "IEZibz8W99u5fHZb7WAqoY3Ejoj7yUHwA9HUDTBlv+mmcOI4MNAJKWL8I+zVouHOtMjHLaNp7KpnWILNzz5N7g==",
   "success": true,
   "projectFilePath": "/home/juhohe/Asiakirjat/LostCities/LostCities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/juhohe/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

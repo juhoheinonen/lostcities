@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using LostCities.Models;
 using LostCities.Managers;
+using Newtonsoft.Json;
 
 namespace LostCities.Controllers
 {
@@ -37,7 +38,7 @@ namespace LostCities.Controllers
         public IActionResult NewGame()
         {
             var newGame = _gameManager.StartNewGame();
-
+                                    
             return Ok(newGame);
         }
     }

@@ -69,3 +69,39 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+#dGameField
+{
+  margin: 1em;
+  background-color: bisque;
+  min-height: 40em;
+}
+
+#dGameField .card {
+  width: 4em;
+  height: 6em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: cadetblue;
+  bottom: 0;
+}
+
+#dGameField .card.blue {
+  background-color: blue;  
+}
+
+#dGameField .card.green {
+  background-color: green;  
+}
+
+#dGameField .card.red {
+  background-color: red;  
+}
+
+#dGameField .card.white {
+  background-color: white;  
+}
+
+#dGameField .card.yellow {
+  background-color: yellow;  
+}

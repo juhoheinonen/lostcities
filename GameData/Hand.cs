@@ -4,7 +4,7 @@ namespace LostCities.GameData
 {
     public class Hand
     {
-        List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; }
 
         public Hand()
         {
