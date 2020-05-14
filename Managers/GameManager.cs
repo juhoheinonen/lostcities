@@ -1,13 +1,15 @@
-using System.Threading.Tasks;
+using System;
 using LostCities.GameData;
 
 namespace LostCities.Managers
 {
     public class GameManager : IGameManager
-    {
-        public Task<GameSituationContainer> StartNewGame()
+    {    
+        public GameSituationContainer StartNewGame()
         {
-            throw new System.NotImplementedException();
-        }
+            var newGameContainer = GameSituationContainer.InitializeNewGame();
+
+            return newGameContainer;
+        }        
     }
 }
