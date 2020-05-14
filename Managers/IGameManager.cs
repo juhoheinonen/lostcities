@@ -1,4 +1,5 @@
 using LostCities.GameData;
+using System.Threading.Tasks;
 
 namespace LostCities.Managers
 {
@@ -7,3 +8,4 @@ namespace LostCities.Managers
         Task<GameSituationContainer> StartNewGame();
     }
 }
+    

@@ -1,6 +1,6 @@
 using System;
 
-namespace lostcities.Models
+namespace LostCities.Models
 {
     public class ErrorViewModel
     {

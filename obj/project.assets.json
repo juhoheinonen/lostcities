@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/juhohe/Asiakirjat/lostcities/lostcities.csproj",
-      "projectName": "lostcities",
-      "projectPath": "/home/juhohe/Asiakirjat/lostcities/lostcities.csproj",
+      "projectUniqueName": "/home/juhohe/Asiakirjat/LostCities/LostCities.csproj",
+      "projectName": "LostCities",
+      "projectPath": "/home/juhohe/Asiakirjat/LostCities/LostCities.csproj",
       "packagesPath": "/home/juhohe/.nuget/packages/",
-      "outputPath": "/home/juhohe/Asiakirjat/lostcities/obj/",
+      "outputPath": "/home/juhohe/Asiakirjat/LostCities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/juhohe/.nuget/NuGet/NuGet.Config"

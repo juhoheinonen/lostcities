@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "erU6QvBjOS/gQdCL9K+QwiZPNey3zRzq9xsJfcZ7ey/QgHYozUC5qy4roFoziYXzbjQcbF9fVWLf5Y91h9ILsA==",
+  "dgSpecHash": "OMEVkrP5ZITZX/RyqDzoj0GXlPa9DAC/Psyt5xHPFufcXZdPVgQHTS73N8X7FSsVeolMyxIJZSbrA2L7/FhLCw==",
   "success": true,
-  "projectFilePath": "/home/juhohe/Asiakirjat/lostcities/lostcities.csproj",
+  "projectFilePath": "/home/juhohe/Asiakirjat/LostCities/LostCities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

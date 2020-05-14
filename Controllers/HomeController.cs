@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using LostCities.Models;
+using LostCities.Managers;
 
 namespace LostCities.Controllers
 {
@@ -36,9 +34,11 @@ namespace LostCities.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public async Task<IActionResult> NewGame() {
+        public async Task<IActionResult> NewGame()
+        {
+            var newGame = await _gameManager.StartNewGame();
 
-
-        }        
+            return Ok(newGame);
+        }
     }
 }
