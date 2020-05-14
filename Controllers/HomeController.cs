@@ -12,10 +12,12 @@ namespace lostcities.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IGameManager _gameManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IGameManager gameManager)
         {
             _logger = logger;
+            _gameManager = gameManager;
         }
 
         public IActionResult Index()
@@ -33,5 +35,10 @@ namespace lostcities.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public async Task<IActionResult> NewGame() {
+
+
+        }        
     }
 }
